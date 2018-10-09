@@ -1,0 +1,46 @@
+Homework 1
+Wenqing Liang
+001873144
+
+
+Question 1: Find Collision
+a) collision: 1 and 7^12+1
+b) collision: 011000 and 100001
+c) collision: 011000 and 110000
+
+
+Question 2: Prove
+1. There are 365 days in a regular year and 366 days every 4 years
+2. The maximum number of days in a year is 366.
+3. The number of students in the class is 500.
+4. According to the pigeon hole priciple, since 500 is larger than 366, there must be two students who have their birthdays on the same day of a year.
+
+
+Question 3: find x -- please see java code
+10 possible values of x: (output of my main method)
+
+3A7D1C06F1E39F857EDA043D5F472856DF877C68DF7A1498CD6C91B9051A849F
+D4185B292630DE2289D30F5EC7E92BFB56D91EA7329B3008D7E88AF46832BE76
+C9C607A938353A964A7531A29AB89E27045C2CFD65A4FFF7AD5BE7BE5F9A1320
+E3335C6E95B0BFEFD55A746223A09011610FE5EF2B797A5875825212AC899FB9
+40F5C9B05C6058C3F3905C829998044535FE2E8D75B8897278B4766424F54ED9
+04F35BC238896241DBD7A1C1324A1AE6CDD50093FB53A1D3DF96A93828C21B77
+C7295A6B24FF702277D83DD88D6A075AF9FFA01500CC781335F6F42C1303EC82
+7B7966DAA146BAE5B5871CA682ED57D569A7E24A5B4482B3C5C1F5402BFDA1B7
+D615C9C6B358E223B56ACF655F513E1400425504A8347C6DFF5C0734D176E5BF
+1B8880F6EFA7AFC55447889956E96E5484887ED75DB9E2CC2CB51B319A0CB724
+
+
+Question 4: SMS text game
+	
+Alice can "hash" the number in her head and send the hash to Bob in SMS text.
+
+An example of hashing mechanisim (if she thinks 9 in head):
+1. Change the number from decimal to binary (9 ----> 1001)
+2. Randomly choose 2 numbers from 0-9 and concatenate them with the binary string at the beginning (choose 4 and 7:  1001---->471001)
+3. Transform the new number to hexadecimal as the hash (471001 ----> 72FD9)
+4. Send the hash to Bob in SMS text
+
+In step 2 the numbers chosen can be different each round of the game.
+
+	

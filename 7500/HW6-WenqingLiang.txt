@@ -1,0 +1,78 @@
+INFO 7500 HOMEWORK 6
+WENQING LIANG
+001873144
+
+
+
+
+PART 3
+
+Explanation on how ScriptTester.run() works:
+
+It first creates and commits a new transaction TxA, which have 2 outputs:
+-one cent (0.01 BTC), which is txAout
+-the rest of the values (total input - 0.01)
+
+It then creates and commits a second new transaction TxB using txAout as input (0.01 BTC), which have 1 output:
+-0.008 BTC, which is txAout - 2*millicoin (0.01 - 2*0.001 = 0.008)
+
+It tests the locking script of TxA with the unlocking script of TxB.
+
+
+Confirmed Transactions:
+
+TxA: 0c5417055c38382c912412fc0c8e79d495c94c127d4fd7151f53ae8d4b55d842 
+TxB: 0e8f0a886160f04c49397e30cac301633e8dbbabf13275893af412ffccbd25a2
+
+
+
+
+
+
+
+PART 4
+
+See attached files
+
+
+TxA: 8a3474be567a7882704f9b599cc4b7109f9e5d25dbc0b6932a08cb86b2114136
+TxB: 0d03399e3c3431e6068e9a95b59c5d2de97ea5dfcef65b26adf493a81e569aeb
+
+
+
+
+
+
+PART 5
+
+See attached files
+
+
+TxA: 1c9f78a33c834a632b9465c7d99aba2f3709f9ddef0e71af9a0a9a712c86e2c2
+TxB: 75fef76c1dfebd1c9af2252cd599b6a769883939b59f60a364787bdf58459a93
+
+
+
+
+
+
+PART 6
+
+See attached files
+
+TxA: 7c24c2c9b89543494a238a18af3e2aef7eacb62023b97b0461e36761a1909b9b
+TxB: ef4a8a646026e3002e78230eed721dd3dd4dabf185c84bbfc5a6f06296eed26d
+
+
+
+
+
+
+PART 7
+
+Tx: bb2ee963855c44781cd63aaefe8a82852082453cabce3cd5234ccd8f4578cc68
+
+
+
+
+

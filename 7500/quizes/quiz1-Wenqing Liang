@@ -1,0 +1,35 @@
+Wenqing Liang - 001873144
+
+1.b c d 
+
+2. Change the legal documents into bit string --> convert it to 64-based ---> pass through hash function and check the remainder
+
+3. Because in the commitment, the original message needs to be hidden by concatenating with the nonce and passes through hash function. If a nonce is not used and the message is passed through hash function directly (example: head/tail), it is possible to figure out what the original message is by trying most common values.
+
+The nonce has to be chosen randomly from a distribution that has high min-entropy so that it's hard to be figured out.
+
+4. Choice b takes longer to solve because the target set of Y  (100-bit values) is smaller.
+
+
+
+Answers:
+
+1. c
+
+2. This hash function cannot be used for this purpose because it has easy-to-find collisions.
+
+3. A nonce should only be used once and must be random. The nonce is needed in case the
+
+values to be committed do not come from a spread-out set. Appending the nonce to the value makes
+
+the input space spread out enough to make it infeasible for an attacker to try all possible input
+
+values.
+
+4.  Puzzle B will take longer to solve. The only way to solve these puzzle is to keep trying
+
+different values of x until a value in Y is found. Thus, the time it takes to solve these puzzles depends
+
+on the size of Y and Puzzle A has a larger Y than puzzle B. The length of id does not affect the number
+
+of attempts needed to hit a target in Y.

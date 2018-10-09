@@ -1,0 +1,291 @@
+-------INITIALIZING----------
+
+block: 
+   hash: 000000000009f09cce31566c0c1bb41980ef88b46487f440d9b1c4413d2fc68a
+   version: 805306368 (BIP34, BIP66, BIP65)
+   previous block: 00000000000b0bdaf05c2fe8b12ebd2372f49d8eabcfbccdadd68b5e5b7c9565
+   merkle root: 1b31283486ed0d365fc4d0e42b041451bd23c310c8291188546a8dc81e3bc0ac
+   time: 1469695674 (2016-07-28T08:47:54Z)
+   difficulty target (nBits): 470024188
+   nonce: 1520329610
+
+
+[main] INFO homework5.WalletInit - Synced blockchain.
+[main] INFO homework5.WalletInit - You've got 0.00 BTC in your pocket
+[main] INFO homework5.WalletInit - Successfully initialized/loaded wallet: /Users/aliceliang/Documents/7500/test
+[main] INFO homework5.WalletInit - Current receive: mhbuzu4TERGmNtn54hRFkwFjAWbYyJ2rsV
+[main] INFO homework5.WalletInit - All watched addresses: []
+
+
+
+
+-------GET COIN FROM FAUCET------
+
+
+
+[main] INFO homework5.WalletInit - Synced blockchain.
+[main] INFO homework5.WalletInit - You've got 2.69194515 BTC in your pocket
+[main] INFO homework5.WalletInit - Successfully initialized/loaded wallet: /Users/aliceliang/Documents/7500/test
+[main] INFO homework5.WalletInit - Current receive: n2iF9naQKuhqiQzT5ZNxaTvKNtmmeHt947
+[main] INFO homework5.WalletInit - All watched addresses: []
+[main] INFO homework5.WalletInit - ----------------------------------------------------------------------------------
+[main] INFO homework5.WalletInit - Printing all transactions on network that are associated with keys in your wallet: 2018-07-19 05:43 EDT
+[main] INFO homework5.WalletInit - TxHash=5879650be95d5e4fc53ae7e168b12b162c81db91195906ab36f65557856bc4c4 LastUpdated=[2018-07-18 22:26 EDT] Confidence: "Appeared in best chain at height 1354395, depth 53. Source: NETWORK"
+[main] INFO homework5.WalletInit - 
+
+
+
+
+
+
+-------Pay to public Key---------
+
+TIME 1
+
+[main] INFO org.bitcoinj.wallet.Wallet - Completing send tx with 1 outputs totalling 0.01 BTC and a fee of 0.0005 BTC/kB
+[main] INFO org.bitcoinj.wallet.Wallet -   with 2.68182665 BTC change
+[main] INFO org.bitcoinj.wallet.Wallet -   completed:   0c5417055c38382c912412fc0c8e79d495c94c127d4fd7151f53ae8d4b55d842
+     in   PUSHDATA(72)[30450221008fc4de537e6bd796dbec29e4a56ce89d228546bc081f171ae5464ae38b586666022038ad7d1b03b00703419feb4a45b9354a4b116337ce01000386cb7262209b3b0501] PUSHDATA(33)[0286f78c7a40ed32491d758d0548656ac2621af5cb86e0ab675373a80d3dfd59a0] 2.69194515 BTC
+          outpoint:5879650be95d5e4fc53ae7e168b12b162c81db91195906ab36f65557856bc4c4:1 hash160:16e06a3a2eec106286c6796613f3633ba467a61a
+     out  DUP HASH160 PUSHDATA(20)[68916de39625b97e3178a2866e43ab170f11d1a0] EQUALVERIFY CHECKSIG 2.68182665 BTC
+     out  PUSHDATA(33)[03ba4b185c7cab185340e88b8ae2167049875c611f384f9ae3c1e25c257f4e008d] CHECKSIG 0.01 BTC
+     fee  0.00050211 BTC/kB, 0.0001185 BTC for 236 bytes
+     prps USER_PAYMENT
+
+
+
+[main] INFO hw6.ScriptTester - Transaction hex you can directly submit this to a block explorer:
+0100000001c4c46b855755f636ab06591991db812c162bb168e1e73ac54f5e5de90b657958010000006b4830450221008fc4de537e6bd796dbec29e4a56ce89d228546bc081f171ae5464ae38b586666022038ad7d1b03b00703419feb4a45b9354a4b116337ce01000386cb7262209b3b0501210286f78c7a40ed32491d758d0548656ac2621af5cb86e0ab675373a80d3dfd59a0ffffffff028924fc0f000000001976a91468916de39625b97e3178a2866e43ab170f11d1a088ac40420f0000000000232103ba4b185c7cab185340e88b8ae2167049875c611f384f9ae3c1e25c257f4e008dac00000000
+[main] INFO org.bitcoinj.wallet.Wallet - commitTx of 0c5417055c38382c912412fc0c8e79d495c94c127d4fd7151f53ae8d4b55d842
+[main] INFO org.bitcoinj.wallet.Wallet -   marked 5879650be95d5e4fc53ae7e168b12b162c81db91195906ab36f65557856bc4c4:1 as spent by 0c5417055c38382c912412fc0c8e79d495c94c127d4fd7151f53ae8d4b55d842
+[main] INFO org.bitcoinj.wallet.Wallet -   5879650be95d5e4fc53ae7e168b12b162c81db91195906ab36f65557856bc4c4 prevtx <-unspent ->spent
+[main] INFO org.bitcoinj.wallet.Wallet - ->pending: 0c5417055c38382c912412fc0c8e79d495c94c127d4fd7151f53ae8d4b55d842
+[main] INFO org.bitcoinj.wallet.Wallet - Estimated balance is now: 2.69182665 BTC
+[main] INFO org.bitcoinj.wallet.KeyChainGroup - Marking key as used: DeterministicKey{pub=03efff0080112577f4e720517ab1bbb7eee0b38d196040bb110a8301dc3dbe0460, chainCode=b7139797aff5fbcec00ff0ecc98b1f152449afc28748bf0e060b0072a3902f37, path=M/0H/1/0, isEncrypted=false, isPubKeyOnly=false}
+
+
+
+
+[main] INFO hw6.ScriptTester - Transaction hex you can directly submit this to a block explorer:
+010000000142d8554b8dae531f15d74f7d124cc995d4798e0cfc1224912c38385c0517540c010000004847304402202955763ca8b28f9be87b5ee52b81693d63322e2063f68caed115ba0c2d3d83210220596bfffcea2cdd8f6ee27613943c849367610cc0c59e911c03f7851a38bbb07901ffffffff0100350c00000000001976a914e87d49f7c02dc3ae4a913f6fb3c58ad284cb0eed88ac00000000
+[main] INFO org.bitcoinj.wallet.Wallet - commitTx of 0e8f0a886160f04c49397e30cac301633e8dbbabf13275893af412ffccbd25a2
+[main] INFO org.bitcoinj.wallet.Wallet -   marked 0c5417055c38382c912412fc0c8e79d495c94c127d4fd7151f53ae8d4b55d842:1 as spent by 0e8f0a886160f04c49397e30cac301633e8dbbabf13275893af412ffccbd25a2
+[main] INFO org.bitcoinj.wallet.Wallet - ->pending: 0e8f0a886160f04c49397e30cac301633e8dbbabf13275893af412ffccbd25a2
+[main] INFO org.bitcoinj.wallet.Wallet - Estimated balance is now: 2.68982665 BTC
+[main] INFO org.bitcoinj.wallet.KeyChainGroup - Marking key as used: DeterministicKey{pub=0283b315ea6506e2324b1533627fb3eeae7eaaeb783859c69e75d9551f9dad6d1f, chainCode=69f5e73083ca2720058f219e32c768da901b2ef29b4ccae02f1c65a4fd5b2166, path=M/0H/0/1, isEncrypted=false, isPubKeyOnly=false}
+
+
+
+
+[main] INFO hw6.WalletInit - Printing all transactions on network that are associated with keys in your wallet: 2018-07-24 06:48 EDT
+[NioClientManager] INFO org.bitcoinj.core.Peer - [54.251.146.205]:18333: Got version=80002, subVer='/BitcoinUnlimited:1.0.1.3(EB16; AD12)/', services=0x21, time=2018-07-24 06:48:17, blocks=1355231
+[NioClientManager] INFO org.bitcoinj.core.PeerGroup - [54.251.146.205]:18333: New peer      (4 connected, 3 pending, 12 max)
+[main] INFO hw6.WalletInit - TxHash=5879650be95d5e4fc53ae7e168b12b162c81db91195906ab36f65557856bc4c4 LastUpdated=[2018-07-18 22:26 EDT] Confidence: "Appeared in best chain at height 1354395, depth 837. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=0c5417055c38382c912412fc0c8e79d495c94c127d4fd7151f53ae8d4b55d842 LastUpdated=[2018-07-24 06:48 EDT] Confidence: "Pending/unconfirmed. Source: SELF"
+[main] INFO hw6.WalletInit - TxHash=0e8f0a886160f04c49397e30cac301633e8dbbabf13275893af412ffccbd25a2 LastUpdated=[2018-07-24 06:48 EDT] Confidence: "Pending/unconfirmed. Source: SELF"
+[main] INFO hw6.WalletInit - ----------------------------------------------------------------------------------
+
+
+
+
+
+Time 2
+
+[main] INFO hw6.WalletInit - Synced blockchain.
+[main] INFO hw6.WalletInit - You've got 2.68982665 BTC in your pocket
+[main] INFO hw6.WalletInit - Successfully initialized/loaded wallet: /Users/aliceliang/Documents/7500/test
+[main] INFO hw6.WalletInit - Current receive: mfuXERd3VqS9GEKd6ofFhWmGHhQVkPQinf
+[main] INFO hw6.WalletInit - All watched addresses: []
+[main] INFO org.bitcoinj.wallet.WalletFiles - Saving wallet; last seen block is height 1355235, date 2018-07-24T11:15:03Z, hash 000000000000000201ebadd3bb774cfed3e139d80b0c48b3b473737b7171d731
+
+
+
+
+[main] INFO hw6.ScriptTester - Transaction hex you can directly submit this to a block explorer:
+0100000002a225bdccff12f43a897532f1abbb8d3e6301c3ca307e39494cf06061880a8f0e000000006b483045022100a6099f89543caffcdc2b4fd4f05ad598a7fac48c770b4e7cd0d67b4192666e0b02201325f6676eab5e0ceaf4079f97fb6c6166a5ae50ab1f039c860da882788e796501210283b315ea6506e2324b1533627fb3eeae7eaaeb783859c69e75d9551f9dad6d1fffffffff42d8554b8dae531f15d74f7d124cc995d4798e0cfc1224912c38385c0517540c000000006b4830450221008117a7e8f216619143999044eff14d2327b5f92821a53b7248e2f7b718319be80220200920eb917ce1b7392be4415c174522520a714e5bba1911b5c77962d3c43425012103efff0080112577f4e720517ab1bbb7eee0b38d196040bb110a8301dc3dbe0460ffffffff0240420f00000000002321033c599b4e0d0c11b8867c8defa61e81b38c1751b49d2725a1715cef9f3a6cbf5cace5cbf80f000000001976a914e77e7c18b6c97c596a5361363bf7a5d24a5d40d988ac00000000
+[main] INFO org.bitcoinj.wallet.Wallet - commitTx of 5c74c7135f4f7e952b2a395c2c4f1890d04f726ae35d28db96f8719e1917a855
+[main] INFO org.bitcoinj.wallet.Wallet -   marked 0e8f0a886160f04c49397e30cac301633e8dbbabf13275893af412ffccbd25a2:0 as spent by 5c74c7135f4f7e952b2a395c2c4f1890d04f726ae35d28db96f8719e1917a855
+[main] INFO org.bitcoinj.wallet.Wallet -   marked 0c5417055c38382c912412fc0c8e79d495c94c127d4fd7151f53ae8d4b55d842:0 as spent by 5c74c7135f4f7e952b2a395c2c4f1890d04f726ae35d28db96f8719e1917a855
+[main] INFO org.bitcoinj.wallet.Wallet - ->pending: 5c74c7135f4f7e952b2a395c2c4f1890d04f726ae35d28db96f8719e1917a855
+[main] INFO org.bitcoinj.wallet.Wallet - Estimated balance is now: 2.68963365 BTC
+[main] INFO org.bitcoinj.wallet.KeyChainGroup - Marking key as used: DeterministicKey{pub=022a630c939c750783114d2a678300bfe7f006d5aa2b94657a26aa17b5dd6f376d, chainCode=457dcb1d61bea42942583c0cf4a9c32812a3e918029438334657dbd760151713, path=M/0H/1/1, isEncrypted=false, isPubKeyOnly=false}
+
+
+
+
+
+
+
+
+
+
+
+---------PayToPubKeyHash--------------
+
+
+
+
+[main] INFO hw6.WalletInit - Synced blockchain.
+[main] INFO hw6.WalletInit - You've got 2.68763365 BTC in your pocket
+[main] INFO hw6.WalletInit - Successfully initialized/loaded wallet: /Users/aliceliang/Documents/7500/test
+[main] INFO hw6.WalletInit - Current receive: n1gw5bCzAr9F14yRx47pHtbWs1ztBMifrR
+[main] INFO hw6.WalletInit - All watched addresses: []
+[main] INFO org.bitcoinj.wallet.WalletFiles - Saving wallet; last seen block is height 1355468, date 2018-07-26T00:26:55Z, hash 000000000000000382d3554a5af16a49848659174a602dfb588dbbfeb326bf7c
+[main] INFO org.bitcoinj.wallet.WalletFiles - Save completed in 32.88 ms
+[main] INFO org.bitcoinj.wallet.Wallet - Completing send tx with 1 outputs totalling 0.01 BTC and a fee of 0.0005 BTC/kB
+[main] INFO org.bitcoinj.wallet.Wallet -   with 2.66952015 BTC change
+[main] INFO org.bitcoinj.wallet.Wallet -   completed:   8a3474be567a7882704f9b599cc4b7109f9e5d25dbc0b6932a08cb86b2114136
+     in   PUSHDATA(72)[3045022100e80eb577d6eaf63de19f77d70dbca74a561f1ff713b9a8fa8fdd3d327629dbf802201ec7255026db7ef68f6a83b7aee81b180a8e71f17f62a1ffbf42d79ca810da8b01] PUSHDATA(33)[022a630c939c750783114d2a678300bfe7f006d5aa2b94657a26aa17b5dd6f376d] 2.67963365 BTC
+          outpoint:5c74c7135f4f7e952b2a395c2c4f1890d04f726ae35d28db96f8719e1917a855:1 hash160:e77e7c18b6c97c596a5361363bf7a5d24a5d40d9
+     out  DUP HASH160 PUSHDATA(20)[0697cd5d586d656d0d067c18132413ff29fe6681] EQUALVERIFY CHECKSIG 0.01 BTC
+     out  DUP HASH160 PUSHDATA(20)[189f630022371906fa9f06aa8ef8b9853ee4aa13] EQUALVERIFY CHECKSIG 2.66952015 BTC
+     fee  0.00050221 BTC/kB, 0.0001135 BTC for 226 bytes
+     prps USER_PAYMENT
+
+
+
+
+
+
+[main] INFO hw6.ScriptTester - Transaction hex you can directly submit this to a block explorer:
+010000000155a817199e71f896db285de36a724fd090184f2c5c392a2b957e4f5f13c7745c010000006b483045022100e80eb577d6eaf63de19f77d70dbca74a561f1ff713b9a8fa8fdd3d327629dbf802201ec7255026db7ef68f6a83b7aee81b180a8e71f17f62a1ffbf42d79ca810da8b0121022a630c939c750783114d2a678300bfe7f006d5aa2b94657a26aa17b5dd6f376dffffffff0240420f00000000001976a9140697cd5d586d656d0d067c18132413ff29fe668188ac4f5de90f000000001976a914189f630022371906fa9f06aa8ef8b9853ee4aa1388ac00000000
+[main] INFO org.bitcoinj.wallet.Wallet - commitTx of 8a3474be567a7882704f9b599cc4b7109f9e5d25dbc0b6932a08cb86b2114136
+[main] INFO org.bitcoinj.wallet.Wallet -   marked 5c74c7135f4f7e952b2a395c2c4f1890d04f726ae35d28db96f8719e1917a855:1 as spent by 8a3474be567a7882704f9b599cc4b7109f9e5d25dbc0b6932a08cb86b2114136
+[main] INFO org.bitcoinj.wallet.Wallet -   5c74c7135f4f7e952b2a395c2c4f1890d04f726ae35d28db96f8719e1917a855 prevtx <-unspent ->spent
+[main] INFO org.bitcoinj.wallet.Wallet - ->pending: 8a3474be567a7882704f9b599cc4b7109f9e5d25dbc0b6932a08cb86b2114136
+[main] INFO org.bitcoinj.wallet.Wallet - Estimated balance is now: 2.68752015 BTC
+[main] INFO org.bitcoinj.wallet.KeyChainGroup - Marking key as used: DeterministicKey{pub=023be96e5f339885d904866a47ba4df3ce784a3b8fe4b22b1d126e3437fae95619, chainCode=afc69407e3aacf86d21f854ee941678b3f07494f0a9f65b55dfc26cca849be88, path=M/0H/1/2, isEncrypted=false, isPubKeyOnly=false}
+
+
+[main] INFO org.bitcoinj.wallet.Wallet - commitTx of 0d03399e3c3431e6068e9a95b59c5d2de97ea5dfcef65b26adf493a81e569aeb
+[main] INFO org.bitcoinj.wallet.Wallet -   marked 8a3474be567a7882704f9b599cc4b7109f9e5d25dbc0b6932a08cb86b2114136:0 as spent by 0d03399e3c3431e6068e9a95b59c5d2de97ea5dfcef65b26adf493a81e569aeb
+[main] INFO org.bitcoinj.wallet.Wallet - ->pending: 0d03399e3c3431e6068e9a95b59c5d2de97ea5dfcef65b26adf493a81e569aeb
+[main] INFO org.bitcoinj.wallet.Wallet - Estimated balance is now: 2.68552015 BTC
+[main] INFO org.bitcoinj.wallet.KeyChainGroup - Marking key as used: DeterministicKey{pub=032bdc31cac06c719b138fa912fcdde9e6f353c9fe10d9e41a21858dc5a4f2bdbe, chainCode=a13d02cd0b151f82f101d86f87a16025308ce0ee17ff8f307677a9d6d5bf31b8, path=M/0H/0/5, isEncrypted=false, isPubKeyOnly=false}
+
+[main] INFO hw6.WalletInit - ----------------------------------------------------------------------------------
+[main] INFO hw6.WalletInit - Printing all transactions on network that are associated with keys in your wallet: 2018-07-25 20:46 EDT
+[main] INFO hw6.WalletInit - TxHash=5879650be95d5e4fc53ae7e168b12b162c81db91195906ab36f65557856bc4c4 LastUpdated=[2018-07-18 22:26 EDT] Confidence: "Appeared in best chain at height 1354395, depth 1074. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=0c5417055c38382c912412fc0c8e79d495c94c127d4fd7151f53ae8d4b55d842 LastUpdated=[2018-07-24 06:48 EDT] Confidence: "Appeared in best chain at height 1355236, depth 233. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=0e8f0a886160f04c49397e30cac301633e8dbbabf13275893af412ffccbd25a2 LastUpdated=[2018-07-24 06:48 EDT] Confidence: "Appeared in best chain at height 1355236, depth 233. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=5c74c7135f4f7e952b2a395c2c4f1890d04f726ae35d28db96f8719e1917a855 LastUpdated=[2018-07-24 07:20 EDT] Confidence: "Appeared in best chain at height 1355236, depth 233. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=db3e2b9db2b69d3a92303f0a0f85e9b80b1f0fcc362b83ac15cd2d2243e6ad57 LastUpdated=[2018-07-24 07:20 EDT] Confidence: "Appeared in best chain at height 1355236, depth 233. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=8a3474be567a7882704f9b599cc4b7109f9e5d25dbc0b6932a08cb86b2114136 LastUpdated=[2018-07-25 20:46 EDT] Confidence: "Pending/unconfirmed. Source: SELF"
+[main] INFO hw6.WalletInit - TxHash=0d03399e3c3431e6068e9a95b59c5d2de97ea5dfcef65b26adf493a81e569aeb LastUpdated=[2018-07-25 20:46 EDT] Confidence: "Pending/unconfirmed. Source: SELF"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------MultisigTransaction-----------
+
+[main] INFO hw6.WalletInit - ----------------------------------------------------------------------------------
+[main] INFO hw6.WalletInit - Printing all transactions on network that are associated with keys in your wallet: 2018-07-25 22:16 EDT
+[main] INFO hw6.WalletInit - TxHash=5879650be95d5e4fc53ae7e168b12b162c81db91195906ab36f65557856bc4c4 LastUpdated=[2018-07-18 22:26 EDT] Confidence: "Appeared in best chain at height 1354395, depth 1083. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=0c5417055c38382c912412fc0c8e79d495c94c127d4fd7151f53ae8d4b55d842 LastUpdated=[2018-07-24 06:48 EDT] Confidence: "Appeared in best chain at height 1355236, depth 242. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=0e8f0a886160f04c49397e30cac301633e8dbbabf13275893af412ffccbd25a2 LastUpdated=[2018-07-24 06:48 EDT] Confidence: "Appeared in best chain at height 1355236, depth 242. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=5c74c7135f4f7e952b2a395c2c4f1890d04f726ae35d28db96f8719e1917a855 LastUpdated=[2018-07-24 07:20 EDT] Confidence: "Appeared in best chain at height 1355236, depth 242. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=db3e2b9db2b69d3a92303f0a0f85e9b80b1f0fcc362b83ac15cd2d2243e6ad57 LastUpdated=[2018-07-24 07:20 EDT] Confidence: "Appeared in best chain at height 1355236, depth 242. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=8a3474be567a7882704f9b599cc4b7109f9e5d25dbc0b6932a08cb86b2114136 LastUpdated=[2018-07-25 20:46 EDT] Confidence: "Seen by 29 peers (most recently: 2018-07-26T00:46:46Z). Appeared in best chain at height 1355469, depth 9. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=0d03399e3c3431e6068e9a95b59c5d2de97ea5dfcef65b26adf493a81e569aeb LastUpdated=[2018-07-25 20:46 EDT] Confidence: "Seen by 30 peers (most recently: 2018-07-26T00:46:46Z). Appeared in best chain at height 1355469, depth 9. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=4736e7320305ab3e3f969bdfafbbb3dc0bde4f6d2e8a995bd8208145481cf078 LastUpdated=[2018-07-25 21:57 EDT] Confidence: "Seen by 1 peer (most recently: 2018-07-26T02:02:20Z). Appeared in best chain at height 1355477, depth 1. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=229b324715c9305356a6d5f27c805dd2c5353009245d128dc2130a3ed3b86278 LastUpdated=[2018-07-25 22:02 EDT] Confidence: "Seen by 36 peers (most recently: 2018-07-26T02:14:13Z). Pending/unconfirmed. Source: SELF"
+[main] INFO hw6.WalletInit - TxHash=1c9f78a33c834a632b9465c7d99aba2f3709f9ddef0e71af9a0a9a712c86e2c2 LastUpdated=[2018-07-25 22:13 EDT] Confidence: "Seen by 25 peers (most recently: 2018-07-26T02:14:13Z). Pending/unconfirmed. Source: SELF"
+[main] INFO hw6.WalletInit - TxHash=75fef76c1dfebd1c9af2252cd599b6a769883939b59f60a364787bdf58459a93 LastUpdated=[2018-07-25 22:13 EDT] Confidence: "Seen by 28 peers (most recently: 2018-07-26T02:14:13Z). Pending/unconfirmed. Source: SELF"
+[main] INFO hw6.WalletInit - ----------------------------------------------------------------------------------
+
+
+
+
+
+
+
+--------GroupMultiSig-------------
+
+
+
+
+
+[main] INFO hw6.WalletInit - Synced blockchain.
+[main] INFO hw6.WalletInit - You've got 2.66298515 BTC in your pocket
+[main] INFO hw6.WalletInit - Successfully initialized/loaded wallet: /Users/aliceliang/Documents/7500/test
+[main] INFO hw6.WalletInit - Current receive: mzfKtQgWZbhG8G5vpSC4BYaz8GB3wvm6ct
+[main] INFO hw6.WalletInit - All watched addresses: []
+[main] INFO org.bitcoinj.wallet.WalletFiles - Saving wallet; last seen block is height 1355615, date 2018-07-27T00:41:20Z, hash 00000000000124b5b22844a12d94e18736078c9a754ca0128144a795ce9fba85
+[main] INFO org.bitcoinj.wallet.WalletFiles - Save completed in 7.224 ms
+[main] INFO org.bitcoinj.wallet.WalletFiles - Saving wallet; last seen block is height 1355615, date 2018-07-27T00:41:20Z, hash 00000000000124b5b22844a12d94e18736078c9a754ca0128144a795ce9fba85
+[main] INFO org.bitcoinj.wallet.WalletFiles - Save completed in 7.270 ms
+[main] INFO org.bitcoinj.wallet.WalletFiles - Saving wallet; last seen block is height 1355615, date 2018-07-27T00:41:20Z, hash 00000000000124b5b22844a12d94e18736078c9a754ca0128144a795ce9fba85
+[NioClientManager] INFO org.bitcoinj.core.Peer - [195.201.187.18]:18333: Received getdata message: org.bitcoinj.core.GetDataMessage@45456cdb
+[main] INFO org.bitcoinj.wallet.WalletFiles - Save completed in 5.439 ms
+[main] INFO org.bitcoinj.wallet.WalletFiles - Saving wallet; last seen block is height 1355615, date 2018-07-27T00:41:20Z, hash 00000000000124b5b22844a12d94e18736078c9a754ca0128144a795ce9fba85
+[main] INFO org.bitcoinj.wallet.WalletFiles - Save completed in 4.817 ms
+[main] INFO org.bitcoinj.wallet.Wallet - Completing send tx with 1 outputs totalling 0.01 BTC and a fee of 0.0005 BTC/kB
+[main] INFO org.bitcoinj.wallet.Wallet -   with 2.63904265 BTC change
+[main] INFO org.bitcoinj.wallet.Wallet -   completed:   7c24c2c9b89543494a238a18af3e2aef7eacb62023b97b0461e36761a1909b9b
+     in   PUSHDATA(71)[304402206a957ec430752596c5794a59abb6925daa2a3be14f2cf91d3eeb60aa419fa3e70220529cebf61b19277f809e607ba9208ce8fc297c57444a750a67a692ec35f4b12601] PUSHDATA(33)[03dfedd902e6285d87f5c88b6f20dbfb76a22d655c7c6559ba5388d7176e37a418] 2.64921315 BTC
+          outpoint:1c9f78a33c834a632b9465c7d99aba2f3709f9ddef0e71af9a0a9a712c86e2c2:1 hash160:d5a20c2451d34c530e4d42c0264390710c32004e
+     out  DUP HASH160 PUSHDATA(20)[024748e4e62d0306c7ac833c69ed59de48b33235] EQUALVERIFY CHECKSIG 2.63904265 BTC
+     out  2 PUSHDATA(33)[02bec4ad9d40f95ae10abc69f0b1c709f7be020afb3ca34375e493dd3834642fc3] PUSHDATA(33)[0371bf970dc4a5c540a96d464db7fa9b91391d5afbaf60519453e08ffa46cbe149] PUSHDATA(33)[032838c9786e6bc7551d4e455bdef8bd9caa1b949d0b796985afe66276eacc90cb] PUSHDATA(33)[03d6011ce2b3e6b1425ad8a29505d2ba74930e9f8c972744d88c2b0c56e8f4de4a] 4 CHECKMULTISIG 0.01 BTC
+     fee  0.00050294 BTC/kB, 0.0001705 BTC for 339 bytes
+     prps USER_PAYMENT
+
+
+
+
+
+[PeerGroup Thread] INFO org.bitcoinj.core.PeerGroup - Waiting 6148 msec before next connect attempt to [69.197.185.106]:18333
+[main] INFO hw6.WalletInit - ----------------------------------------------------------------------------------
+[main] INFO hw6.WalletInit - Printing all transactions on network that are associated with keys in your wallet: 2018-07-26 20:43 EDT
+[main] INFO hw6.WalletInit - TxHash=5879650be95d5e4fc53ae7e168b12b162c81db91195906ab36f65557856bc4c4 LastUpdated=[2018-07-18 22:26 EDT] Confidence: "Appeared in best chain at height 1354395, depth 1221. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=0c5417055c38382c912412fc0c8e79d495c94c127d4fd7151f53ae8d4b55d842 LastUpdated=[2018-07-24 06:48 EDT] Confidence: "Appeared in best chain at height 1355236, depth 380. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=0e8f0a886160f04c49397e30cac301633e8dbbabf13275893af412ffccbd25a2 LastUpdated=[2018-07-24 06:48 EDT] Confidence: "Appeared in best chain at height 1355236, depth 380. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=5c74c7135f4f7e952b2a395c2c4f1890d04f726ae35d28db96f8719e1917a855 LastUpdated=[2018-07-24 07:20 EDT] Confidence: "Appeared in best chain at height 1355236, depth 380. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=db3e2b9db2b69d3a92303f0a0f85e9b80b1f0fcc362b83ac15cd2d2243e6ad57 LastUpdated=[2018-07-24 07:20 EDT] Confidence: "Appeared in best chain at height 1355236, depth 380. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=8a3474be567a7882704f9b599cc4b7109f9e5d25dbc0b6932a08cb86b2114136 LastUpdated=[2018-07-25 20:46 EDT] Confidence: "Appeared in best chain at height 1355469, depth 147. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=0d03399e3c3431e6068e9a95b59c5d2de97ea5dfcef65b26adf493a81e569aeb LastUpdated=[2018-07-25 20:46 EDT] Confidence: "Appeared in best chain at height 1355469, depth 147. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=4736e7320305ab3e3f969bdfafbbb3dc0bde4f6d2e8a995bd8208145481cf078 LastUpdated=[2018-07-25 21:57 EDT] Confidence: "Appeared in best chain at height 1355477, depth 139. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=229b324715c9305356a6d5f27c805dd2c5353009245d128dc2130a3ed3b86278 LastUpdated=[2018-07-25 22:02 EDT] Confidence: "Appeared in best chain at height 1355478, depth 138. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=1c9f78a33c834a632b9465c7d99aba2f3709f9ddef0e71af9a0a9a712c86e2c2 LastUpdated=[2018-07-25 22:13 EDT] Confidence: "Appeared in best chain at height 1355478, depth 138. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=75fef76c1dfebd1c9af2252cd599b6a769883939b59f60a364787bdf58459a93 LastUpdated=[2018-07-25 22:13 EDT] Confidence: "Appeared in best chain at height 1355478, depth 138. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=7c24c2c9b89543494a238a18af3e2aef7eacb62023b97b0461e36761a1909b9b LastUpdated=[2018-07-26 20:42 EDT] Confidence: "Seen by 22 peers (most recently: 2018-07-27T00:42:48Z). Pending/unconfirmed. Source: SELF"
+[main] INFO hw6.WalletInit - TxHash=ef4a8a646026e3002e78230eed721dd3dd4dabf185c84bbfc5a6f06296eed26d LastUpdated=[2018-07-26 20:42 EDT] Confidence: "Seen by 24 peers (most recently: 2018-07-27T00:42:48Z). Pending/unconfirmed. Source: SELF"
+[main] INFO hw6.WalletInit - ----------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+--------------Sending back------------------
+
+
+[main] INFO hw6.WalletInit - ----------------------------------------------------------------------------------
+[main] INFO hw6.WalletInit - Printing all transactions on network that are associated with keys in your wallet: 2018-07-26 21:05 EDT
+[main] INFO hw6.WalletInit - TxHash=5879650be95d5e4fc53ae7e168b12b162c81db91195906ab36f65557856bc4c4 LastUpdated=[2018-07-18 22:26 EDT] Confidence: "Appeared in best chain at height 1354395, depth 1223. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=0c5417055c38382c912412fc0c8e79d495c94c127d4fd7151f53ae8d4b55d842 LastUpdated=[2018-07-24 06:48 EDT] Confidence: "Appeared in best chain at height 1355236, depth 382. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=0e8f0a886160f04c49397e30cac301633e8dbbabf13275893af412ffccbd25a2 LastUpdated=[2018-07-24 06:48 EDT] Confidence: "Appeared in best chain at height 1355236, depth 382. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=5c74c7135f4f7e952b2a395c2c4f1890d04f726ae35d28db96f8719e1917a855 LastUpdated=[2018-07-24 07:20 EDT] Confidence: "Appeared in best chain at height 1355236, depth 382. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=db3e2b9db2b69d3a92303f0a0f85e9b80b1f0fcc362b83ac15cd2d2243e6ad57 LastUpdated=[2018-07-24 07:20 EDT] Confidence: "Appeared in best chain at height 1355236, depth 382. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=8a3474be567a7882704f9b599cc4b7109f9e5d25dbc0b6932a08cb86b2114136 LastUpdated=[2018-07-25 20:46 EDT] Confidence: "Appeared in best chain at height 1355469, depth 149. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=0d03399e3c3431e6068e9a95b59c5d2de97ea5dfcef65b26adf493a81e569aeb LastUpdated=[2018-07-25 20:46 EDT] Confidence: "Appeared in best chain at height 1355469, depth 149. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=4736e7320305ab3e3f969bdfafbbb3dc0bde4f6d2e8a995bd8208145481cf078 LastUpdated=[2018-07-25 21:57 EDT] Confidence: "Appeared in best chain at height 1355477, depth 141. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=229b324715c9305356a6d5f27c805dd2c5353009245d128dc2130a3ed3b86278 LastUpdated=[2018-07-25 22:02 EDT] Confidence: "Appeared in best chain at height 1355478, depth 140. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=1c9f78a33c834a632b9465c7d99aba2f3709f9ddef0e71af9a0a9a712c86e2c2 LastUpdated=[2018-07-25 22:13 EDT] Confidence: "Appeared in best chain at height 1355478, depth 140. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=75fef76c1dfebd1c9af2252cd599b6a769883939b59f60a364787bdf58459a93 LastUpdated=[2018-07-25 22:13 EDT] Confidence: "Appeared in best chain at height 1355478, depth 140. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=7c24c2c9b89543494a238a18af3e2aef7eacb62023b97b0461e36761a1909b9b LastUpdated=[2018-07-26 20:42 EDT] Confidence: "Seen by 23 peers (most recently: 2018-07-27T00:43:19Z). Appeared in best chain at height 1355616, depth 2. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=ef4a8a646026e3002e78230eed721dd3dd4dabf185c84bbfc5a6f06296eed26d LastUpdated=[2018-07-26 20:42 EDT] Confidence: "Seen by 25 peers (most recently: 2018-07-27T00:43:19Z). Appeared in best chain at height 1355616, depth 2. Source: NETWORK"
+[main] INFO hw6.WalletInit - TxHash=bb2ee963855c44781cd63aaefe8a82852082453cabce3cd5234ccd8f4578cc68 LastUpdated=[2018-07-26 20:52 EDT] Confidence: "Seen by 32 peers (most recently: 2018-07-27T00:52:37Z). Pending/unconfirmed. Source: SELF"
+[main] INFO hw6.WalletInit - -

@@ -1,0 +1,56 @@
+INFO 7500 HOMEWORK 5
+WENQING LIANG
+001873144
+
+
+
+
+
+
+PART 4
+CURRENT RECEIVE ADDRESS: mhbuzu4TERGmNtn54hRFkwFjAWbYyJ2rsV
+
+
+
+
+PART5
+TRANSACTION ID: 5879650be95d5e4fc53ae7e168b12b162c81db91195906ab36f65557856bc4c4
+
+COIN VALUE: 2.69194515 tBTC
+
+NUMBER OF OUTPUTS: 2 
+[mxBGsk7eeWRE8XgW1SRYLDQhjn9spuPd8c(2,794.49626998 tBTC)]
+[mhbuzu4TERGmNtn54hRFkwFjAWbYyJ2rsV(2.69194515 tBTC)] --> MY ADDRESS
+
+PURPOSE OF THE OTHER OUTPUT: TO PREVENT YOU FROM DOUBLE SPENDING YOUR COINS SINCE PEOPLE CAN TRACK IT FROM THE OTHER OUTPUT AS WELL
+
+
+
+
+PART 6
+LOGS:
+[main] INFO homework5.WalletInit - Synced blockchain.
+[main] INFO homework5.WalletInit - You've got 2.69194515 BTC in your pocket
+[main] INFO homework5.WalletInit - Successfully initialized/loaded wallet: /Users/aliceliang/Documents/7500/test
+[main] INFO homework5.WalletInit - Current receive: n2iF9naQKuhqiQzT5ZNxaTvKNtmmeHt947
+[main] INFO homework5.WalletInit - All watched addresses: []
+[main] INFO homework5.WalletInit - ----------------------------------------------------------------------------------
+[main] INFO homework5.WalletInit - Printing all transactions on network that are associated with keys in your wallet: 2018-07-19 05:43 EDT
+[main] INFO homework5.WalletInit - TxHash=5879650be95d5e4fc53ae7e168b12b162c81db91195906ab36f65557856bc4c4 LastUpdated=[2018-07-18 22:26 EDT] Confidence: "Appeared in best chain at height 1354395, depth 53. Source: NETWORK"
+
+
+
+
+PART 7
+SEE JAVA FILE ATTAHCHED
+
+
+
+
+PART 8
+MY LAST NAME: LIANG
+ADDRESS: 1XXANZyeT9tXHHZAbDwiKxT2CJ1vwnGdHr
+
+
+
+
